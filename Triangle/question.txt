@@ -1,33 +1,31 @@
-The Triangle class
-Implement the Triangle class according to the 
-requirements:
+Dog class
+Define a Dog class. Each Dog will have a name(string), breed (string), and weight (int) fields.
 
-It should contain private fields of integer type 
-representing base and height
+This class will have two constructors:
 
-They should be set via the constructor (base should 
-be the first parameter, height should be the second)
+The first takes name, breed, and weight parameters (in this order).
 
-*It should contain a public CalculateArea method, 
-returning the area according to the following formula:
-((base * height) / 2)   
+The second takes only the name and weight parameters (in this order). In this case, the breed should be assigned the "mixed-breed" value.
 
-It should contain a public AsString method, which 
-returns a string following this pattern: "Base is B, 
-height is H", where B and H
-should be switched to values of base and height. So, 
-for example, it could be "Base is 10, height is 5".
+This class will expose a single public method called Describe, returning a string describing the dog.
 
-IMPORTANT: "base" is a reserved keyword in C#, so having
-a constructor parameter named "base" will not work. 
-We learned how to bypass it in the "Naming variables 
-& introduction to clean code" lecture.
+For a dog named Lucky, with the breed 
+"german shepherd" and weight of 40, this 
+method should return "This dog is named Lucky,
+it's a german shepherd, and it weighs 40
+kilograms, so it's a large dog."
 
+For a dog named Tina, with the breed "shar pei"
+and weight of 25, this method should return
+"This dog is named Tina, it's a shar pei, and
+it weighs 25 kilograms, so it's a medium dog."
 
+The rule for translating the dog's weight to 
+the weight description is as follows:
 
-*The area of a triangle can be a fraction of a number.
-For example, a triangle of base 1 and height 3 has an
-area equal to 1.5. We haven't learned about numeric 
-type representing fractions yet, so just use the 
-formula  ((Base * Height) / 2). It will trim 
-the result to a whole number, but it is fine for now.
+For dogs lighter than 5 kilos, it is "tiny".
+
+For dogs weighing 5 kilos or more but less than
+30 kilos, it is "medium".
+
+For other dogs, it is "large".
