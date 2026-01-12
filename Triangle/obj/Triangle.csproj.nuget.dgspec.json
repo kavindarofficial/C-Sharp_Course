@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Triangle\\Triangle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Triangle\\Triangle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Calculator\\Calculator.csproj",
-        "projectName": "Calculator",
-        "projectPath": "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Triangle\\Triangle.csproj",
+        "projectName": "Triangle",
+        "projectPath": "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Triangle\\Triangle.csproj",
         "packagesPath": "C:\\Users\\kavindar.arun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\kavindar.arun\\Documents\\C-Sharp_Course\\Triangle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kavindar.arun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net10.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0": {
-            "targetAlias": "net10.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,13 +38,13 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net10.0": {
-          "targetAlias": "net10.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -56,6 +56,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
