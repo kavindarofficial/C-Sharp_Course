@@ -1,3 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="Assignment1/Assignment1.csproj" Id="2ba710b6-6d72-43d1-97b6-76167b292600" />
   <Project Path="Calculator/Calculator.csproj" />
+  <Project Path="ToDoList/ToDoList.csproj" Id="78f0da72-01e8-456c-b896-04a72b40bb43" />
 </Solution>
